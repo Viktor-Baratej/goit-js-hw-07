@@ -1,0 +1,43 @@
+#controls {
+  display: flex;
+  gap: 16px;
+}
+
+input {
+  border: 1px solid #808080;
+  border-radius: 8px;
+  text-align: center;
+  width: 150px;
+  height: 40px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+button {
+  border-radius: 8px;
+  width: 120px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.btn-create {
+  background: #4e75ff;
+}
+
+.btn-destroy {
+  background: #ff4e4e;
+}
+
+.btn-destroy:hover {
+  background: #ff7070;
+}
